@@ -1,0 +1,27 @@
+{
+  "arch": ["x20"],
+  "use_orig": ["True"],
+  "n_outputs": ["10"],
+  "n_gpu": ["4"],
+  "epochs": ["150"],
+  "cosine": ["True"],
+  "lr": ["0.1"],
+  "decay": ["0.0005"],
+  "schedule": ["70 120"],
+
+  "n_tasks": ["2"],
+  "adapters": ["False"],
+  "attention": ["False"],
+  "squeeze": ["False", "True"],
+  "width": ["64"],
+  "binarize": ["False"],
+  "freeze": ["False"],
+  "xpath": ["False"],
+
+  "discr_w": ["0.1", "0.5"],
+  "main_w": ["0.1", "0.5", "1", "2", "10"],
+  "reverse": ["True"],
+  "onlynorm": ["True"],
+  "seed": ["0"],
+  "tsne": ["True"]
+}

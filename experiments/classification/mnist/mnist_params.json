@@ -1,0 +1,10 @@
+{
+  "active_tasks": ["0 1"],
+  "epochs": ["20"],
+  "lr": ["0.04"],
+  "schedule": ["10 15"],
+  "adapters": ["False", "True"],
+  "attention": ["False", "True"],
+  "n_gpu": ["1"],
+  "width": ["2"]
+}

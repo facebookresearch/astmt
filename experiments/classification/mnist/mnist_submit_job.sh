@@ -1,0 +1,12 @@
+#!/bin/bash
+source ~/.bashrc
+source activate cluster
+
+echo "CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES"
+MASTER_ADDR="${SLURM_NODELIST//[}"
+MASTER_ADDR="${MASTER_ADDR%-*}"
+echo "RANK=$SLURM_PROCID"
+echo "MASTER_ADDR=$MASTER_ADDR"
+RANK="$SLURM_PROCID" MASTER_ADDR="$MASTER_ADDR" MASTER_PORT=29500
+OMP_NUM_THREADS=16
+python mnist/train.py $@

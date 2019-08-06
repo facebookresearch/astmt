@@ -1,0 +1,26 @@
+{
+  "resume_epoch": ["0"],
+
+  "active_tasks": ["1 1 1 1"],
+  "w": ["-1"],
+
+  "pretr": ["imagenet"],
+  "trBatch": ["8"],
+  "lr": ["0.001"],
+  "lr_dec": ["1"],
+  "lr_tsk": ["-1"],
+  "newop": ["True"],
+
+  "wd": ["1e-04"],
+  "epochs": ["200"],
+  "stride": ["16"],
+  "trNorm": ["True"],
+  "squeeze": ["True"],
+  "dec_w": ["64"],
+
+  "dscr": ["fconv"],
+  "dscrk": ["1", "3"],
+  "dscrd": ["1", "2"],
+  "lr_dscr":["1", "10"],
+  "dscr_w": ["0.1", "0.01"]
+}

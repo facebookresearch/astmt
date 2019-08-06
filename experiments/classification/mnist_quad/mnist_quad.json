@@ -1,0 +1,11 @@
+{
+  "active_tasks": ["0 1"],
+  "epochs": ["30"],
+  "lr": ["0.01", "0.1"],
+  "schedule": ["15 23"],
+  "n_gpu": ["1"],
+  "quad": ["False", "True"],
+  "newop": ["False", "True"],
+  "use_bn": ["True", "False"],
+  "squeeze": ["True", "False"]
+}

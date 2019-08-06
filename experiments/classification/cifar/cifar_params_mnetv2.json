@@ -1,0 +1,17 @@
+{
+  "arch": ["mnetv2"],
+  "use_orig": ["True"],
+  "n_tasks": ["1"],
+  "active_tasks": ["-1"],
+  "n_outputs": ["10"],
+  "n_gpu": ["1"],
+  "epochs": ["100"],
+  "lr": ["0.045"],
+  "decay": ["0.00004"],
+  "schedule": ["50 80"],
+  "adapters": ["False"],
+  "attention": ["False"],
+  "squeeze": ["False", "True"],
+  "binarize": ["False"],
+  "freeze": ["False"]
+}

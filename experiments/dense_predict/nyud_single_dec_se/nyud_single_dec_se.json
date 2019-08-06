@@ -1,0 +1,33 @@
+{
+  "resume_epoch": ["0"],
+
+  "active_tasks": ["1 1 1 1"],
+  "w": ["-1"],
+
+  "arch": ["se_res26", "se_res50", "se_res101"],
+  "pretr": ["imagenet"],
+  "trBatch": ["8"],
+  "lr": ["0.001"],
+  "lr_dec": ["1"],
+  "lr_tsk": ["-1"],
+  "newop": ["True"],
+
+  "wd": ["1e-04"],
+  "epochs": ["200"],
+  "cls": ["atrous-v3"],
+  "stride": ["16"],
+  "trNorm": ["True"],
+  "semt": ["True"],
+  "sedec": ["True"],
+  "adapt": ["False"],
+  "dec_w": ["64"],
+
+  "use_cond": ["False"],
+  "cond": ["res101"],
+
+  "dscr": ["fconv"],
+  "dscrk": ["1", "3"],
+  "dscrd": ["1", "2"],
+  "lr_dscr":["1", "10"],
+  "dscr_w": ["0.1", "0.01"]
+}

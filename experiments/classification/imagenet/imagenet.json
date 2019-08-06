@@ -1,0 +1,7 @@
+{
+  "arch": ["mobilenet-v2"],
+  "n_gpu": ["8"],
+  "learning-rate": ["0.1"],
+  "batch-size": ["256"],
+  "group_norm": ["False"]
+}

@@ -1,0 +1,29 @@
+{
+  "resume_epoch": ["0"],
+
+  "active_tasks": ["1 1 1 1 1"],
+
+  "arch": ["mnetv2"],
+  "pretr": ["imagenet"],
+  "trBatch": ["16"],
+  "lr": ["0.001"],
+  "lr_dec": ["1"],
+  "lr_tsk": ["-1"],
+  "newop": ["True"],
+
+  "wd": ["1e-04"],
+  "epochs": ["100"],
+  "stride": ["16"],
+  "trNorm": ["True"],
+  "seenc": ["False"],
+  "sedec": ["False"],
+  "adapt": ["False"],
+
+  "edge_w": ["0.95"],
+
+  "dscr": ["fconv"],
+  "dscrk": ["1", "3"],
+  "dscrd": ["1", "2"],
+  "lr_dscr":["1", "10"],
+  "dscr_w": ["0.01", "0.1"]
+}

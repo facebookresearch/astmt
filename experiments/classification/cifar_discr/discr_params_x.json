@@ -1,0 +1,20 @@
+{
+  "arch": ["x20"],
+  "use_orig": ["True"],
+  "n_tasks": ["2", "5", "10"],
+  "active_tasks": ["-1"],
+  "n_outputs": ["10"],
+  "n_gpu": ["4"],
+  "epochs": ["150"],
+  "lr": ["0.1"],
+  "decay": ["0.0005"],
+  "schedule": ["70 120"],
+  "adapters": ["False"],
+  "attention": ["False"],
+  "squeeze": ["True"],
+  "width": ["8", "64"],
+  "binarize": ["False"],
+  "freeze": ["False"],
+  "xpath": ["False"],
+  "discr_w": ["0.01", "0.1", "1"]
+}

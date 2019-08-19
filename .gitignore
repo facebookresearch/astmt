@@ -1,0 +1,24 @@
+.idea
+models/
+.DS_Store
+detail_api/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary files
+*.swn
+*.swo
+*.swp
+
+# Zip files
+*.zip
+
+# Lob id logs
+*.jobs
+
+# Tmp out files
+*.txt
+*.out

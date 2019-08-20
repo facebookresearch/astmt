@@ -12,7 +12,7 @@ This is the implementation (in PyTorch) of the following paper:
 
 ```
 @InProceedings{MRK19,
-  Author    = {K.K. Maninis and I. Radosavovic and I. Kokkinos},
+  Author    = {Kevis-Kokitsi Maninis and Ilija Radosavovic and Iasonas Kokkinos},
   Title     = {Attentive Single-Tasking of Multiple Tasks},
   Booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   Year      = {2019}

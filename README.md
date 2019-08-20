@@ -33,7 +33,7 @@ Example performance on PASCAL Context, for ResNet-101 backbone (more results in 
 | MTL w/ ASTMT  |        72.4        |            68.00             |       61.12        |           14.68        |      65.71     |         0.04    |
  
 <p align="center">
-<img src="doc/qualitative.png">
+<img src="doc/qual.png">
 </p>
 
 

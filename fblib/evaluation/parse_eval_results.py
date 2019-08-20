@@ -117,7 +117,7 @@ if __name__ == '__main__':
     db = 'PASCALContext'
 
     if db == 'PASCALContext':
-        parse_folder(exp_group='pascal_se', query='*', db_name='PASCALContext', dic=dic,
+        parse_folder(exp_group='pascal_se', query='*res50*', db_name='PASCALContext', dic=dic,
                      tasks=['edge', 'semseg', 'human_parts', 'normals', 'sal'])
     elif db == 'NYUD':
         parse_folder(exp_group='nyud_se', query='*res101*', db_name='NYUD', dic=dic,

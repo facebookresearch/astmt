@@ -23,6 +23,19 @@ This is the implementation (in PyTorch) of the following paper:
 In this work we address task interference in universal networks by considering that a network is trained on multiple tasks, but performs one task at a time, an approach we refer to as "single-tasking multiple tasks". The network thus modifies its behaviour through task-dependent feature adaptation, or task attention. This gives the network the ability to accentuate the features that are adapted to a task, while shunning irrelevant ones. We further reduce task interference by forcing the task gradients to be statistically indistinguishable through adversarial training, ensuring that the common backbone architecture serving all tasks is not dominated by any of the task-specific gradients.   
 Results in three multi-task dense labelling problems consistently show: (i)  a large reduction in the number of parameters while preserving, or even improving performance and (ii) a smooth trade-off between computation and multi-task accuracy.
 
+### Results
+Example performance on PASCAL Context, for ResNet-101 backbone (more results in the paper):
+
+|  Experiment   | Edge Detection (F) | Semantic Segmentation (mIoU) | Human Parts (mIoU) | Surface Normals (mErr) | Saliency (mIoU)| Average Drop (%)|
+| ------------  | ------------------ | ---------------------------- | ------------------ | ---------------------- | -------------- | --------------- |
+|  Single Task  |        72.7        |            68.30             |       60.70        |           14.61        |      65.40     |          -      |
+| MTL w/o ASTMT |        69.2        |            63.20             |       55.10        |           16.04        |      63.60     |         6.81    |
+| MTL w/ ASTMT  |        72.4        |            68.00             |       61.12        |           14.68        |      65.71     |         0.04    |
+ 
+<p align="center">
+<img src="doc/qualitative.png">
+</p>
+
 
 ### License
 

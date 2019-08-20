@@ -91,7 +91,7 @@ This will train a resnet26 version of ASTMT. To use different setup (deeper netw
 - `tensorboard --logdir . --port XXXX` .If you are using port forwarding to your local machine, access through `localhost:XXXX`.
 
 #### Evaluation
-Evaluation scripts are run at the end of each experiments, and the results are dumped into the experiment's folder.
+Evaluation scripts are run at the end of each experiment and the results are dumped into the experiment's folder.
 The evaluation part of boundary detection is disabled by default, since we used the MATLAB-based repo of [seism](https://github.com/jponttuset/seism).
 
 Briefly, the following metrics has been implemented:

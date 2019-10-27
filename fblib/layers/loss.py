@@ -313,7 +313,7 @@ class NormalsLoss(Module):
             if ignore_label:
                 loss.div_(max(n_valid, 1e-6))
             else:
-                loss.div(float(np.prod(label.size())))
+                loss.div_(float(np.prod(label.size())))
 
         return loss
 
